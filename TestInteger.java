@@ -8,7 +8,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   testval = 1;
-  Serial.println(testval);
+  Serial.write(testval);
   delay(1000);
   
 
